@@ -1,1 +1,25 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  margin: 1.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("https://assets.codepen.io/2621168/shoe.jpg");
+  background-size: cover;
+  background-position-x: 20%;
+  background-position-y: 20%;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  -webkit-animation: introLoad 2s forwards;
+          animation: introLoad 2s forwards;
+}
+/*# sourceMappingURL=main.css.map */
